@@ -81,6 +81,7 @@
         </configuration>
       </plugin>
     </plugins>
+    <finalName>spring-soap-webservice-clinet</finalName>
   </build>
 
 </project>
