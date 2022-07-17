@@ -18,4 +18,38 @@
     <module>spring-soap-webservice-client</module>
   </modules>
 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <spring.boot.maven.plugin.version>2.7.1</spring.boot.maven.plugin.version>
+    <spring.boot.maven.dependencies.version>2.7.1</spring.boot.maven.dependencies.version>
+  </properties>
+
+  <!-- All submodules will use dependencies based on this dependency management -->
+  <dependencyManagement>
+    <dependencies>
+      <!-- Spring Framework Dependencies -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${spring.boot.maven.plugin.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+          <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>${spring.boot.maven.plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
 </project>

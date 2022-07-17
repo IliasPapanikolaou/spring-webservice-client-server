@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dee4607-1bf4-469a-b4bf-f58f610ef720" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-webservice-client-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-webservice-client-server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/META-INF/sun-jaxb.episode" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/META-INF/sun-jaxb.episode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/Acknowledgement.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/Acknowledgement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/CustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-soap-webservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +112,7 @@
       <workItem from="1658077835362" duration="296000" />
       <workItem from="1658078195550" duration="94000" />
       <workItem from="1658078312397" duration="184000" />
-      <workItem from="1658079033281" duration="732000" />
+      <workItem from="1658079033281" duration="1628000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1658078021408</created>
@@ -112,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658078021408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1658080556457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658080556457</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
