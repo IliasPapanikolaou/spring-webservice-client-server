@@ -13,6 +13,7 @@
     <bytecodeTargetLevel>
       <module name="spring-soap-webservice" target="17" />
       <module name="spring-soap-webservice-client" target="17" />
+      <module name="spring-webservice-client-server" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
