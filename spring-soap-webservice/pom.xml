@@ -10,7 +10,6 @@
   </parent>
 
   <artifactId>spring-soap-webservice</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>spring-soap-webservice</name>
   <description>spring-soap-webservice</description>
 
