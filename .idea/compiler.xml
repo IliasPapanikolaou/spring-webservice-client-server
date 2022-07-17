@@ -11,9 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-soap-webservice" target="17" />
-      <module name="spring-soap-webservice-client" target="17" />
-      <module name="spring-webservice-client-server" target="17" />
+      <module name="spring-soap-webservice" target="11" />
+      <module name="spring-soap-webservice-client" target="11" />
+      <module name="spring-webservice-client-server" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
