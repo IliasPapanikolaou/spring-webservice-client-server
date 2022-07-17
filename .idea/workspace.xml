@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dee4607-1bf4-469a-b4bf-f58f610ef720" name="Changes" comment="init commit">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/META-INF/sun-jaxb.episode" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/META-INF/sun-jaxb.episode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/Acknowledgement.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/Acknowledgement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/CustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice-client/src/main/java/com/ipap/springsoapwebserviceclient/generated/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/Acknowledgement.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/Acknowledgement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/CustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-soap-webservice/src/main/java/com/ipap/springsoapwebservice/generated/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +102,7 @@
       <workItem from="1658077835362" duration="296000" />
       <workItem from="1658078195550" duration="94000" />
       <workItem from="1658078312397" duration="184000" />
-      <workItem from="1658079033281" duration="2754000" />
+      <workItem from="1658079033281" duration="2955000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1658078021408</created>
@@ -150,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658081773073</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init commit">
+      <created>1658082674845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658082674845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

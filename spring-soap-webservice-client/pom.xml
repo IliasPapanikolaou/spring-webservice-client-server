@@ -12,9 +12,7 @@
   <artifactId>spring-soap-webservice-client</artifactId>
   <name>spring-soap-webservice-client</name>
   <description>spring-soap-webservice-client</description>
-  <properties>
-    <java.version>17</java.version>
-  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
