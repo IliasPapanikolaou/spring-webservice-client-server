@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build Maven') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/IliasPapanikolaou/spring-webservice-client-server']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: '{github-project}']]])
                 sh 'mvn clean install'
             }
         }
@@ -15,11 +15,11 @@ pipeline {
                 script{
                     sh '''
                     cd $WORKSPACE/spring-soap-webservice
-                    docker build -t iliaspap/spring-soap-webservice .
+                    docker build -t {username}/spring-soap-webservice .
                     '''
                     sh '''
                     cd $WORKSPACE/spring-soap-webservice-client
-                    docker build -t iliaspap/spring-soap-webservice-client  .
+                    docker build -t {username}/spring-soap-webservice-client  .
                     '''
                 }
             }
@@ -28,10 +28,10 @@ pipeline {
             steps {
                 script {
                     withCredentials([string(credentialsId: 'dockerhub_pwd', variable: 'dockerhub_pwd')]) {
-                        sh 'docker login -u iliaspap -p ${dockerhub_pwd}'
+                        sh 'docker login -u {username} -p ${dockerhub_pwd}'
                     }
-                    sh 'docker push iliaspap/spring-soap-webservice-client'
-                    sh 'docker push iliaspap/spring-soap-webservice'
+                    sh 'docker push {username}/spring-soap-webservice-client'
+                    sh 'docker push {username}/spring-soap-webservice'
                 }
             }
         }

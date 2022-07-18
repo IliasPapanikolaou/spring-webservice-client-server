@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dee4607-1bf4-469a-b4bf-f58f610ef720" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
       <workItem from="1658078312397" duration="184000" />
       <workItem from="1658079033281" duration="7720000" />
       <workItem from="1658163706285" duration="3000" />
-      <workItem from="1658164793067" duration="1328000" />
+      <workItem from="1658164793067" duration="1722000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1658078021408</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658083762763</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="init commit">
+      <created>1658167440197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658167440197</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
